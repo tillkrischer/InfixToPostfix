@@ -1,0 +1,90 @@
+Enter infix expression: 1 + 2
+Standardized infix: 1.0 + 2.0 
+Postfix expression: 1.0 2.0 + 
+Answer: 3.0
+
+Enter infix expression: 1 - 2
+Standardized infix: 1.0 - 2.0 
+Postfix expression: 1.0 2.0 - 
+Answer: -1.0
+
+Enter infix expression: 5 / 2
+Standardized infix: 5.0 / 2.0 
+Postfix expression: 5.0 2.0 / 
+Answer: 2.5
+
+Enter infix expression: 5 * 2
+Standardized infix: 5.0 * 2.0 
+Postfix expression: 5.0 2.0 * 
+Answer: 10.0
+
+Enter infix expression: 1 - 2 + 3 / 4 * 5
+Standardized infix: 1.0 - 2.0 + 3.0 / 4.0 * 5.0 
+Postfix expression: 1.0 2.0 - 3.0 4.0 / 5.0 * + 
+Answer: 2.75
+
+Enter infix expression: ( 1 + 2 ) / ( 3 - 2 )
+Standardized infix: ( 1.0 + 2.0 ) / ( 3.0 - 2.0 ) 
+Postfix expression: 1.0 2.0 + 3.0 2.0 - / 
+Answer: 3.0
+
+Enter infix expression: ((( 1 + 2 ))) / (( 3 - 2 ))
+Standardized infix: ( ( ( 1.0 + 2.0 ) ) ) / ( ( 3.0 - 2.0 ) ) 
+Postfix expression: 1.0 2.0 + 3.0 2.0 - / 
+Answer: 3.0
+
+Enter infix expression: -5.0 - -10.0
+Standardized infix: -5.0 - -10.0 
+Postfix expression: -5.0 -10.0 - 
+Answer: 5.0
+
+Enter infix expression: +5 - +10
+Standardized infix: 5.0 - 10.0 
+Postfix expression: 5.0 10.0 - 
+Answer: -5.0
+
+Enter infix expression: 6.02E23
+Invalid operator: E
+
+Enter infix expression: -5.2
+Standardized infix: -5.2 
+Postfix expression: -5.2 
+Answer: -5.2
+
+Enter infix expression: 5-6+10
+Standardized infix: 5.0 - 6.0 + 10.0 
+Postfix expression: 5.0 6.0 - 10.0 + 
+Answer: 9.0
+
+Enter infix expression: 5       -6      +      10
+Standardized infix: 5.0 - 6.0 + 10.0 
+Postfix expression: 5.0 6.0 - 10.0 + 
+Answer: 9.0
+
+Enter infix expression: 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10 + 11 + 12 + 13 + 14 + 15 + 16 + 17 + 18 + 19 + 20 
+Standardized infix: 1.0 + 2.0 + 3.0 + 4.0 + 5.0 + 6.0 + 7.0 + 8.0 + 9.0 + 10.0 + 11.0 + 12.0 + 13.0 + 14.0 + 15.0 + 16.0 + 17.0 + 18.0 + 19.0 + 20.0 
+Postfix expression: 1.0 2.0 + 3.0 + 4.0 + 5.0 + 6.0 + 7.0 + 8.0 + 9.0 + 10.0 + 11.0 + 12.0 + 13.0 + 14.0 + 15.0 + 16.0 + 17.0 + 18.0 + 19.0 + 20.0 + 
+Answer: 210.0
+
+Enter infix expression: t - 5
+Invalid operand
+
+Enter infix expression: a - b / c
+Invalid operand
+
+Enter infix expression: 5 & 7
+Invalid operator: &
+
+Enter infix expression: 4 * 5 & 5 # 78 @ 7
+Invalid operator: &
+
+Enter infix expression: ( 56 - 67
+Standardized infix: ( 56.0 - 67.0 
+Unbalanced left parenthesis '('
+
+Enter infix expression: 78 + 4 )
+Standardized infix: 78.0 + 4.0 ) 
+Unbalanced right parenthesis ')'
+
+
+
